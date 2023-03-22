@@ -1,0 +1,4 @@
+S->ACB|bB
+A->da|BC|#
+B->g
+C->h|#
