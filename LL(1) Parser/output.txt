@@ -39,3 +39,23 @@ T'|   Ɛ     | error   |   Ɛ     | * F T'  |   Ɛ     | error   | error
 ----------------------------------------------------------------------
 
 stack                                       string                                  Action
+E $                                id + id * id $                                      TE'
+T E' $                             id + id * id $                                      FT'
+F T' E' $                          id + id * id $                                       id
+id T' E' $                         id + id * id $                                    match
+T' E' $                               + id * id $                                       Ɛ
+Ɛ E' $                               + id * id $                                       Ɛ
+E' $                                  + id * id $                                     +TE'
++ T E' $                              + id * id $                                    match
+T E' $                                  id * id $                                      FT'
+F T' E' $                               id * id $                                       id
+id T' E' $                              id * id $                                    match
+T' E' $                                    * id $                                     *FT'
+* F T' E' $                                * id $                                    match
+F T' E' $                                    id $                                       id
+id T' E' $                                   id $                                    match
+T' E' $                                         $                                       Ɛ
+Ɛ E' $                                         $                                       Ɛ
+E' $                                            $                                       Ɛ
+Ɛ $                                            $                                       Ɛ
+$                                               $                                 Accepted

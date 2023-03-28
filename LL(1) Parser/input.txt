@@ -6,3 +6,5 @@ T' -> * F T'
 T' -> Ɛ
 F -> id 
 F -> ( E )
+string_test:
+id + id * id
