@@ -1,0 +1,7 @@
+LL Analyzer Table
+#   $   (   )   *   +   id  Ɛ
+E   φ   TE' φ   φ   φ   TE' φ
+E'  Ɛ   φ   Ɛ   φ   +TE' φ  φ
+F   φ   (E) φ   φ   φ   id  φ
+T   φ   FT' φ   φ   φ   FT' φ
+T'  Ɛ   φ   Ɛ  *FT' Ɛ   φ   φ

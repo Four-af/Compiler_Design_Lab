@@ -448,8 +448,8 @@ void ShowTable()
 }
 int main()
 {
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    freopen("string_check_input.txt", "r", stdin);
+    freopen("string_check_output.txt", "w", stdout);
     ReadGrammar();
     // validShowGrammar();
     CalcFirst();
@@ -472,6 +472,6 @@ int main()
         }
     TableLL();
     // Show Table///
-    ShowTable();
-    // valid();
+    // ShowTable();
+    valid();
 }
